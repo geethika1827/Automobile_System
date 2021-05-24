@@ -1,0 +1,39 @@
+<body class="bgimg7">
+    <mat-toolbar color="primary">
+        <span class="example-spacer"></span>
+        <span>AUTO HUB</span>
+        <span class="example-spacer"></span>
+    </mat-toolbar>
+    <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title style="text-align: center;"> &nbsp;Rental Cars</mat-card-title>
+        </mat-card-header>
+        <form>
+            <label for="name" class="label_1">Name:</label>
+            <input type="text" [(ngModel)]="name" placeholder="Enter name" name="name" class="input_1">
+            <label for="aadhar_no" class="label_2">Aadhar No:</label>
+            <input type="text" [(ngModel)]="aadhar_no" placeholder="Enter Aadhar no" name="aadhar_no" class="input_2">
+            <label for="cars" class="label_3">Car Model:</label>
+            <select name="Cars" class="input_3" [(ngModel)]="car_model">
+                <option value="Lamborghini Huracan">Lamborghini Huracan</option>
+                <option value="Ertiga">Ertiga</option>
+                <option value="Thar">Thar</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Fortuner">Fortuner</option>
+                <option value="Swift">Swift</option>
+            </select>
+            <label for="days" class="label_4">For Days:</label>
+            <input type="text" [(ngModel)]="days" placeholder="Enter days" name="days" class="input_4">
+            <label for="location" class="label_5">Location:</label>
+            <input type="text" [(ngModel)]="location" placeholder="Enter Location" name="location" class="input_5">
+            <label for="price" class="label_6">Price per Day:</label>
+            <select name="price" class="input_6" [(ngModel)]="price">
+                <option value="500">500 /-</option>
+                <option value="350">350 /-</option>
+            </select>
+            <div>Rental amount to be paid : {{this.price * this.days}}</div>
+            <button mat-raised-button class="but1" (click)="Final()">Finish</button>
+        </form> 
+    </mat-card>
+</body>
+<router-outlet></router-outlet>

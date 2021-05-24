@@ -1,0 +1,54 @@
+.bgimg{
+    background-image: url(src\assets\background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.bgm{
+    background-color: cyan;
+}
+.example-card {
+    max-width: 375px;
+    height: 375px;
+    left: 525px;
+    top: 150px;
+}
+.label_1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: large;
+}
+.input_1{
+    position: relative;
+    top: 30px;
+    right: -50px;
+    font-size: large;
+}
+.label_2{
+    position: absolute;
+    top: 165px;
+    left: 35px;
+    font-size: large;
+}
+.input_2{
+    position: absolute;
+    top: 165px;
+    left: 135px;
+    font-size: large;
+}
+.button_1{
+    position: relative;
+    top: 150px;
+    left: 160px;
+    font-size: medium;
+}
+.abc{
+    position: relative;
+    top: 220px;
+    left: 25px;
+    font-size: large;
+}
+.contact{
+    font-size: medium;
+}

@@ -1,0 +1,31 @@
+<body class=bgimg4>
+    <mat-card class="example-card" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+      <mat-card-content>
+        <h2 style="text-align: center; font-size: 30px;" >
+          Payment Details
+        </h2>
+        <form>
+          <label for="card_type" class="label_1">Card Type:</label>
+          <select name="card_type" [(ngModel)]="card_type"  class="input_1">
+            <option value="Credit Card">Credit Card</option>
+            <option value="Debit Card">Debit Card</option>
+        </select>
+          <label for="card_no" class="label_2">Card No:</label>
+          <input type="text" [(ngModel)]="card_no" name="card_no" placeholder="Enter Card No.:" class="input_2">
+          <label for="card_holder" class="label_3">Card Holder:</label>
+          <input type="text" [(ngModel)]="card_holder" placeholder="Enter Card holder" name="card_holder" class="input_3">
+          <label for="CVV" class="label_4">CVV:</label>
+          <input type="text" [(ngModel)]="CVV" placeholder="Enter CVV" name="CVV" class="input_4">
+          <label for="expiry_date" class="label_5">Expiry Date:</label>
+          <input type="month" [(ngModel)]="expiry_date" name="expiry_date" class="input_5">
+          <label for="phone_no" class="label_6">Phone no:</label>
+          <input type="text" [(ngModel)]="phone_no" name="phone_no" placeholder="Enter Phone no:" class="input_6">
+          <label for="otp" class="label_7">OTP:</label>
+          <input type="text" [(ngModel)]="otp_user" name="otp" placeholder="Enter OTP:" class="input_7">
+          <button type="submit" style="display: inherit;" class="button_1" (click)="myFunction()">GET OTP</button>
+          <button type="submit" style="display: inherit;" class="button_2" (click)="payment()">PAY NOW</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </body>
+<router-outlet></router-outlet>

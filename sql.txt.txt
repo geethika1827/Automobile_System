@@ -1,0 +1,70 @@
+
+create table SDP.booknowdetails(
+	first_name varchar(25) not null,
+	last_name varchar(25) not null,
+	email_id varchar(25) not null,
+	car_model varchar(25) not null,
+	phone_no long int not null,
+	date date not null,
+	address varchar(25) not null,
+	city varchar(25) not null,
+	state varchar(25) not null,
+	price int not null
+);
+create table SDP.paymentdetails(
+	card_no long int not null,
+	card_holder varchar(25) not null,
+	cvv int not null,
+	expiry_date date not null
+);
+create table SDP.sellingdetails(
+	id int not null,
+	name varchar(25) not null,
+	phone long int not null,
+	car_model varchar(25) not null,
+	city varchar(25) not null,
+	state varchar(25) not null,
+	price int not null
+);
+create table SDP.rental_details(
+	name varchar(25) not null,
+	aadhar_no long int not null,
+	car_model varchar(25) not null,
+	days int not null,
+	location varchar(25) not null
+);
+create table SDP.signupdetails(
+	first_name varchar(25) not null,
+	last_name varchar(25) not null,
+	email_id varchar(25) not null,
+	password varchar(25) not null,
+	confirm_password varchar(25) not null
+);
+insert into SDP.booknowdetails
+values('Chaitanya','Nath','mchaitanyanathsingh@gmail.com','Ertiga',8885384444,19-12-2020,'Stambalagaru','Guntur','Andhra pradesh',500000),
+      ('Geethika','Reddy','Geethika@gmail.com','Ferrari',6302556216,21-12-2020,'Pattabhipuram','Guntur','Andhra Pradesh',10000000),
+      ('Bhushan','Chowdary','Bhushan@gmail.com','Lamborgini',9876543210,31-12-2020,'lakshmipuram','Guntur',Andhra Pradesh',5000000);
+
+insert into SDP.paymentdetails
+values(1234567891029384,'Chaitanyanath',345,08/25),
+      (9876543210928374,'Geethikareddy',789,09/25),
+      (2143658709988776,'Bhushanchowdary',567,10/25);
+
+insert into SDP.sellingdetails
+values(30710,'ChaitanyaNath',8885384444,'Ertiga','Guntur','Andhra Pradesh',500000),
+      (30050,'GeethikaReddy',6302556216,'Ferrari','Guntur','Andhra Pradesh',10000000),
+      (31002,'BhushanChowdary',9876543210,'Lamborgini','Andhra Pradesh',50000000);
+
+insert into SDP.rental_details
+values('Chaitanya','Nath',123456789234,'Ferrari',2,'Hyderabad'),
+      ('GeethikaReddy',987654321234,'Ertiga',3,'Banglore'),
+      ('BhushanChowdary',543216789023,'Lamborgini',1,'Vijayawada');
+
+insert into SDP.signupdetails
+values('Chaitanya','Nath','mchaitanyanathsingh@gmail.com','chaitu','chaitu'),
+      ('Geethika','Reddy','Geethika@gmail.com','geethu','geethu'),
+      ('Bhushan','Chowdary','Bhushan@gmail.com','bhush','bhush');
+
+
+	
+

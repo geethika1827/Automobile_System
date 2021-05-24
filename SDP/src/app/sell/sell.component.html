@@ -1,0 +1,60 @@
+<body class="special">
+  <mat-toolbar color="">
+    <span routerLink="/home">Home</span>
+    <span class="example-spacer"></span>
+    <span>Sell your Cars Here</span>
+    <span class="example-spacer"></span>
+    <span routerLink="/buy">Buy</span>
+  </mat-toolbar>
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Selling Details</mat-card-title>
+        </mat-card-header>
+        <form>
+          <label for="id" class="label_7">Id no:</label>
+          <input type="text" [(ngModel)]="id" placeholder="Enter id" name="id" class="input_7">
+          <label class="label_1">Name: </label>
+          <input type="text" [(ngModel)]="name" placeholder="Enter Name" name="name" class="input_1">
+          <label for="phone" class="label_2">Phone no:</label>
+          <input type="tel" [(ngModel)]="phone" placeholder="Enter Phone num" name="phone" class="input_2" maxlength="10">
+          <label for="cars" class="label_3">Car Model:</label>
+          <input type="text" [(ngModel)]="car_model" placeholder="Enter car model" name="car_model" class="input_3">
+          <label for="city" class="label_4">City:</label>
+          <input type="text" [(ngModel)]="city" placeholder="Enter City" name="city" class="input_4">
+          <label for="state" class="label_5">State:</label>
+          <input type="text" [(ngModel)]="state" placeholder="Enter State" name="state" class="input_5">
+          <label for="price" class="label_6">Price:</label>
+          <input type="text" [(ngModel)]="price" placeholder="Enter Selling Price" name="price" class="input_6">
+          <button mat-raised-button class="but1" (click)="SubmitOn()" color="primary">Submit</button>
+          <button mat-raised-button class="but2" color="primary" type="reset" value="Reset">Reset</button>
+      </form> 
+    </mat-card>
+    <table class="table-effect" ng-controller="tableController">
+      <thead>
+        <tr>
+          <th style="color: brown;">Id no.</th>
+          <th style="color: brown;">Name</th>
+          <th style="color: brown;">Phone</th>
+          <th style="color: brown;">Car Model</th>
+          <th style="color: brown;">City</th>
+          <th style="color: brown;">State</th>
+          <th style="color: brown;">Price</th>
+          <th></th>
+        </tr>
+      </thead>
+      <thead *ngFor="let detail of customer_details" [attr.id]="detail.id">
+        <tr>
+          <th style="color: brown;">{{detail.id}}</th>
+          <th style="color: brown;">{{detail.name}}</th>
+          <th style="color: brown;">{{detail.phone}}</th>
+          <th style="color: brown;">{{detail.car_model}}</th>
+          <th style="color: brown;">{{detail.city}}</th>
+          <th style="color: brown;">{{detail.state}}</th>
+          <th style="color: brown;">{{detail.price}}</th>
+          <th><button mat-raised-button color="primary" id="remove" (click)="deleteRow(detail.id)">Delete</button></th>
+        </tr>
+      </thead>
+    </table>
+    <p style="font-size:50px; color:red">SALE!</p>
+</body>
+<router-outlet></router-outlet>

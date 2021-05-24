@@ -1,0 +1,21 @@
+print("Hello..I am your Advisor chat Bot.\n") 
+print("May I know your name?") 
+name=str(input("Enter your name :")) 
+print("Thank you",name)
+print("\nI am here to explore you about all models of cars and options available in our website.")
+print("\nHave a Nice Shopping :)")
+print("\nHere are the exclusive range of cars the our website provides for you to buy")
+product={1: "Lamborghini Huracan",2: "Ertiga",3: "Thar",4: "Ferrari",5: "Fortuner",6: "Swift"}
+for n in product:
+  print(n, product[n])
+buy_product=int(input("\nSelect the product you want to buy: "))
+print("\nThank You for your response.")
+print("Which section of our website did you like?")
+web_page={1:"Home Page",2:"Buying Page",3:"Selling Page",4:"Booking Page"}
+for i in web_page:
+    print(i, web_page[i])
+response=int(input("\nSelect the page you liked the most"))
+print("\nThank You for your response.")
+feedback=input("\nCan we have anymore suggestions/feedback from you?\n")
+print("\nThank You for shopping with us. We have noted all your responses. Soon we will be sending a mail in regard of your choices. ",end='')
+print("Hope you had a wonderful experience with us. Let's keep our bond Growing.")

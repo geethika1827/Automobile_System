@@ -1,0 +1,137 @@
+
+.special{
+  background-image: url(src\assets\background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.example-card {
+  width: 1475px;
+  height: 500px;
+  left: 10px;
+  top: 50px;
+}
+.label_1{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-size: medium;
+}
+.input_1{
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  font-size: medium;
+}
+.label_2{
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  font-size: medium;
+}
+.input_2{
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  font-size: medium;
+}
+.label_3{
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  font-size: medium;
+}
+.input_3{
+  position: absolute;
+  top: 150px;
+  left: 110px;
+  font-size: medium;
+}
+.label_4{
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  font-size: medium;
+}
+.input_4{
+  position: absolute;
+  top: 190px;
+  left: 110px;
+  font-size: medium;
+}
+.label_5{
+  position: absolute;
+  top: 230px;
+  left: 20px;
+  font-size: medium;
+}
+.input_5{
+  position: absolute;
+  top: 230px;
+  left: 110px;
+  font-size: medium;
+}
+.label_6{
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  font-size: medium;
+}
+.input_6{
+  position: absolute;
+  top: 270px;
+  left: 110px;
+  font-size: medium;
+}
+.label_7{
+  position: absolute;
+  top: 310px;
+  left: 20px;
+  font-size: medium;
+}
+.input_7{
+  position: absolute;
+  top: 310px;
+  left: 110px;
+  font-size: medium;
+}
+.but1{
+  position: absolute;
+  top: 370px;
+  left: 20px;
+  font-size: medium;
+}
+.but2{
+  position: absolute;
+  top: 370px;
+  left: 170px;
+  font-size: medium;
+}
+.table-effect{
+  position: absolute;
+  top: 130px;
+  left: 350px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+} 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 4px;
+    font-style: normal;
+    font-size: small;
+} 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.special{
+  background-color: blanchedalmond;
+}
+p{
+  position: absolute;
+  top: 700px;
+  left: 150px
+}

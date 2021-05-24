@@ -1,0 +1,28 @@
+<body class = bgimg1>
+    <mat-card class="example-card" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+      <mat-card-content>
+        <h2 style="text-align: center; font-size: 30px;" >
+            Sign Up
+        </h2>
+        <form>
+          <label for="First Name" class="label_1">First Name:</label>
+          <input type="text" [(ngModel)]="first_name" placeholder="Enter First Name" name="firstname" class="input_1">
+          <label for="Last Name" class="label_2">Last Name:</label>
+          <input type="text" [(ngModel)]="last_name" placeholder="Enter Last Name" name="lastname" class="input_2">
+          <label for="email" class="label_3">Email Id:</label>
+          <input type="email" [(ngModel)]="email_id" placeholder="Enter email" name="email" class="input_3">
+          <label for="pwd" class="label_4">Password:</label>
+          <input type="password"  [(ngModel)]="password" placeholder="Enter password" name="pswd" class="input_4">
+          <label for="pwd" class="label_5">Confirm Password:</label>
+          <input type="password"  [(ngModel)]="confirm_password" placeholder="Confirm password" name="pswd" class="input_5">
+          <label for="gender" class="label_6">Gender:</label>
+          <mat-radio-group aria-label="Select an option" class="input_6">
+            <mat-radio-button value="1">Male</mat-radio-button>
+            <mat-radio-button value="2" class="sub_input">Female</mat-radio-button>
+          </mat-radio-group>
+          <button class="button_1" (click)="Submit()">Submit</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </body>
+  <router-outlet></router-outlet>

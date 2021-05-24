@@ -1,0 +1,126 @@
+.bgimg4{
+    background-image: url(src\assets\background5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: cyan;
+}
+.bgm{
+    background-color: cyan;
+}
+.example-card{
+    max-width: 400px;
+    height: 450px;
+    left: 525px;
+    top: 150px;
+}
+.label_1{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: medium;
+}
+.input_1{
+    position: relative;
+    top: 10px;
+    right: -45px;
+    font-size: medium;
+}
+.label_2{
+    position: absolute;
+    top: 125px;
+    left: 35px;
+    font-size: medium;
+}
+.input_2{
+    position: absolute;
+    top: 125px;
+    left: 135px;
+    font-size: medium;
+}
+.label_3{
+    position: absolute;
+    top: 175px;
+    left: 35px;
+    font-size: medium;
+}
+.input_3{
+    position: absolute;
+    top: 175px;
+    left: 135px;
+    font-size: medium;
+}
+.label_4{
+    position: absolute;
+    top: 225px;
+    left: 35px;
+    font-size: medium;
+}
+.input_4{
+    position: absolute;
+    top: 225px;
+    left: 135px;
+    font-size: medium;
+}
+.label_5{
+    position: absolute;
+    top: 275px;
+    left: 35px;
+    font-size: medium;
+}
+.input_5{
+    position: absolute;
+    top: 275px;
+    left: 135px;
+    font-size: medium;
+}
+.label_6{
+    position: absolute;
+    top: 325px;
+    left: 35px;
+    font-size: medium;
+}
+.input_6{
+    position: absolute;
+    top: 325px;
+    left: 135px;
+    font-size: medium;
+}
+.label_7{
+    position: absolute;
+    top: 375px;
+    left: 35px;
+    font-size: medium;
+}
+.input_7{
+    position: absolute;
+    top: 375px;
+    left: 135px;
+    font-size: medium;
+}
+.button_1{
+    position: absolute;
+    top: 420px;
+    left: 55px;
+    font-size: 0.9rem;
+    width: 110px;
+    padding: 10px 0px;
+    color: blue;
+}
+.button_2{
+    position: absolute;
+    top: 420px;
+    left: 255px;
+    font-size: 0.9rem;
+    width: 110px;
+    padding: 10px 0px;
+    color: blue;
+    
+}
+.button_1:hover{
+    transform: scale(1.2);
+}
+
+.button_2:hover{
+    transform: scale(1.2);
+}

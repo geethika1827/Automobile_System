@@ -1,0 +1,42 @@
+.bgimg2{
+    background-image: url(src\assets\background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+.but1{
+    left: 125px;
+    position: fixed;
+    width: 10%;
+    top: 150px;
+    cursor: pointer;
+    font-weight: 50;
+    color:rgb(0, 0, 0)
+}
+.but2{
+    margin-left: 375px;
+    position: fixed;
+    width: 10%;
+    top: 150px;
+    cursor: pointer;
+    font-weight: 20;
+    color: rgb(0, 0, 0);
+}
+.contact{
+    position: fixed;
+    bottom: 20px;
+    margin-left: 25px;
+    color: chartreuse;
+}
+.but3{
+    margin-left: 250px;
+    position: fixed;
+    width: 10%;
+    top: 250px;
+    cursor: pointer;
+    font-weight: 20;
+    color: rgb(0, 0, 0);
+}

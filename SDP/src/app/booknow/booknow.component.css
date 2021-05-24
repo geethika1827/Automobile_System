@@ -1,0 +1,143 @@
+.bgimg3{
+    background-image: url(src\assets\background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    left: 900px;
+    top: 50px;
+    width: 500px;
+    height: 630px;
+}
+.label_1{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: medium;
+}
+.input_1{
+    position: relative;
+    top: 10px;
+    right: -30px;
+    font-size: medium;
+}
+.label_2{
+    position: absolute;
+    top: 105px;
+    left: 35px;
+    font-size: medium;
+}
+.input_2{
+    position: absolute;
+    top: 105px;
+    left: 130px;
+    font-size: medium;
+}
+.label_3{
+    position: absolute;
+    top: 155px;
+    left: 35px;
+    font-size: medium;
+}
+.input_3{
+    position: absolute;
+    top: 155px;
+    left: 130px;
+    font-size: medium;
+}
+.label_4{
+    position: absolute;
+    top: 205px;
+    left: 35px;
+    font-size: medium;
+}
+.input_4{
+    position: absolute;
+    top: 205px;
+    left: 130px;
+    font-size: medium;
+}
+.label_5{
+    position: absolute;
+    top: 255px;
+    left: 35px;
+    font-size: medium;
+}
+.input_5{
+    position: absolute;
+    top: 255px;
+    left: 130px;
+    font-size: medium;
+}
+.label_6{
+    position: absolute;
+    top: 305px;
+    left: 35px;
+    font-size: medium;
+}
+.input_6{
+    position: absolute;
+    top: 305px;
+    left: 130px;
+    font-size: medium;
+}
+.label_7{
+    position: absolute;
+    top: 355px;
+    left: 35px;
+    font-size: medium;
+}
+.input_7{
+    position: absolute;
+    top: 355px;
+    left: 130px;
+    font-size: medium;
+}
+.label_8{
+    position: absolute;
+    top: 405px;
+    left: 35px;
+    font-size: medium;
+}
+.input_8{
+    position: absolute;
+    top: 405px;
+    left: 130px;
+    font-size: medium;
+}
+.label_9{
+    position: absolute;
+    top: 455px;
+    left: 35px;
+    font-size: medium;
+}
+.input_9{
+    position: absolute;
+    top: 455px;
+    left: 130px;
+    font-size: medium;
+}
+.label_10{
+    position: absolute;
+    top: 505px;
+    left: 35px;
+    font-size: medium;
+}
+.input_10{
+    position: absolute;
+    top: 505px;
+    left: 130px;
+    font-size: medium;
+}
+.but1{
+    position: fixed;
+    top:640px;
+    left:1150px;
+    font-size: medium;
+}
+div{
+    position: absolute;
+    top: 545px;
+    left: 35px;
+    font-size: medium;
+}

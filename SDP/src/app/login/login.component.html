@@ -1,0 +1,21 @@
+<body class=bgimg>
+    <mat-card class="example-card" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+      <mat-card-content>
+        <h2 style="text-align: center; font-size: 30px;" >
+          Login
+        </h2>
+        <form>
+          <label for="email" class="label_1">Email Id:</label>
+          <input type="email" [(ngModel)]="email_id" name="email_id" placeholder="Enter email" class="input_1">
+          <label for="pwd" class="label_2">Password:</label>
+          <input type="password" [(ngModel)]="password" placeholder="Enter password" name="password" class="input_2">
+          <button type="submit" style="display: inherit;" class="button_1"  (click)="loginUser()">Submit</button>
+          <p class="abc">
+            Don't have an account? 
+          <a routerLink='/signup'>Sign Up</a>
+          </p>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </body>
+<router-outlet></router-outlet>

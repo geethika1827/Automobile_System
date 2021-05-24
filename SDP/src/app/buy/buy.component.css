@@ -1,0 +1,15 @@
+.example-card{
+    width: 500px;
+    height: 500px;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
